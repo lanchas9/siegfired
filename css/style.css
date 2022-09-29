@@ -49,6 +49,7 @@ body {
     font-size: 24px;
     width: 70%;
     max-width: 400px;
+    margin-bottom: 10%;
 }
 
 
@@ -113,32 +114,34 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .respuestas{
-    color: white;
+    color: #002156;
     height: 30px;
     font-weight: 600;
     font-size: 18px;
     text-align: center;
-    background-color: #ed1c24;
-    margin-top: 5%;
+    background-color: lightcoral;
+    margin-top: 1%;
     width: 80%;
-    height: 30px;
+    height: 40px;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: #002156;
+    border-color: #ed1c24;
     border-style: solid;
-    border-width: 5px;
-    line-height: 1.5;
+    border-width: 3px;
+    line-height: 2.5;
     display: inline-block;
     vertical-align: middle;
+    border-radius: 12px 0px 12px 0px; 
 }
 
 .respuestaSelecionada{
     background-color: #002156; 
     border-color: #ed1c24;
+    color: white;
 }
 
 .grande{
