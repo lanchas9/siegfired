@@ -49,7 +49,7 @@
                         
                         let qr = document.getElementById('qrcode1')
                         qr.innerHTML= ''
-                        let newLink = 'SIEGFRIED_YELLOWHAT_MaxQR_'+numUsuariosGanadores
+                        let newLink = 'SIEGFRIED_YELLOWHAT_MaxQR_'+ Math.ceil(numUsuariosGanadores*1.8)
                         let baseURL = newLink
                         new QRCode(document.getElementById('qrcode1'), baseURL);
                     }
