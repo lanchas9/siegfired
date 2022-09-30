@@ -49,7 +49,7 @@
                 let numPreguntas = urlParams.get('numPreguntas') 
                 document.getElementById("numeroAciertos").innerHTML = numAciertos + " / " + numPreguntas
                 
-                if (numAciertos == numPreguntas){
+                if (numAciertos >= 4){
                     document.getElementById("textoGanador").className = "texto mostrar centrado"
                      
                     let botonRegresar = getCookie("botonRegresar")
